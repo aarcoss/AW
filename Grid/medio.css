@@ -1,0 +1,20 @@
+.item {
+    background-color: lightcoral;
+    border: 3px solid black;
+    text-align: center;
+    width: 125px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-color: darkcyan;
+    border-bottom-color: darkcyan;
+    color: blue;
+    font-size: 20px;
+    
+}
+
+.container {
+    display: grid;
+    place-items: center;
+}

@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(circle at center, #7c3134, #be654c, #292872, #4b81df);
+    background-size: 400% 400%;
+    animation: brillo 12s ease-in-out infinite;
+}
+
+@keyframes brillo {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+label {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 14px;
+}
+
+input {
+    width: 15%;
+    padding: 10px 8px;
+    font-size: 11px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    background: transparent;
+}
+
+h1 {
+    text-align: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    background-color: rgb(102, 72, 33);
+    border: 2px solid rgb(255, 255, 255);
+    width: 200px;
+    height: 50px;
+    padding: 20px;
+    margin: 30px auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+    background: radial-gradient(circle at center, #292872, #be654c, #7c3134, #4b81df);
+    background-size: 400% 400%;
+    animation: brillo 12s ease-in-out infinite;
+    color: white;
+
+}
