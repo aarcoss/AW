@@ -11,6 +11,7 @@
     <div class="loginbox">
     <h2>Login</h2>
 
+
     <form action="procesar_login.php" method="post">
     <div class="input2">
         <label>Usuario:</label>
